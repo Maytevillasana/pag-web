@@ -1,0 +1,104 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(245, 162, 213);
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+a{
+    text-decoration: none;
+}
+header ul li{
+    margin: 20px;
+}
+img{width: 180px;
+
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.presentacion{
+    font-size: 35px;
+    background-color: rgb(233, 224, 226);
+}
+.presentacion{
+    width: 100%;
+    font-size: 80px;
+    padding: 10px;
+    margin: 3% 0 3% 0;
+    
+}
+#CarouselExampleSlidesOnly{
+    font-size:50px; 
+    padding: 3%;
+}
+h1{
+    font-size: 20px ; 
+    color: rgb(10, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+    p{
+        font-size: 18px;
+        color: #848385;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: rgb(241, 62, 98);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 3% 0 3% 0;
+        background-color: rgb(238, 231, 232);
+    }
+    #nosotros iframe{ 
+        padding: 10%;
+        margin: 3% 0 3% 0;
+    }
+
+    #nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .caja{
+        width: 100%;
+        height: 100%;
+        padding: 3%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja img{
+      border-radius: 50%;
+    }
+    .caja p{
+        font-size: 18px;
+    }
+    .final{
+        justify-content: center;
+        padding :5%;
+        align-items:center ;
+        width: 100%;
+        height: 100%;
+        margin: 20px;
+        background-color:rgb(233, 224, 226);
+    }
+    
